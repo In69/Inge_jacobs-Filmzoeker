@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="movies.js"></script>
+    <script defer src="filmzoeker.js"></script>
+</head>
+<body>
+    <h1>Welkom bij de Winc Filmzoeker</h1>
+    <nav>
+        
+        <label for="new-movies"><input type="radio" id="new-movies" name="movie-filter" value="new-movies"/>Laatste films, 2014 of nieuwer</label>
+
+        <label for="avenger-movies"><input type="radio" id="avenger-movies" name="movie-filter" value="avenger-movies"/>Avenger Films</label>
+
+        
+        <label for="xmen-movies"><input type="radio" id="xmen-movies" name="movie-filter" value="xmen-movies"/>X-Men Films</label>
+        
+        
+        <label for="princess-movies"><input type="radio" id="princess-movies" name="movie-filter" value="princess-movies"/>Princess Films</label>
+
+        
+        <label for="batman-movies"><input type="radio" id="batman-movies" name="movie-filter" value="batman-movies"/>Batman Films</label>
+    </nav>
+    <main>
+        <ul id="movie-list"></ul>
+    </main>
+</body>
+</html>
